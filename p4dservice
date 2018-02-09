@@ -1,5 +1,9 @@
 #!/bin/sh
 
+### BEGIN INIT INFO
+# Provides:          p4dservice
+### END INIT INFO
+
 export P4JOURNAL=/var/log/perforce/journal
 export P4LOG=/var/log/perforce/p4err
 export P4ROOT=/perforce_depot
